@@ -13,13 +13,14 @@ html(lang="en")
             form(action='/login', method='POST')
                 .user 
                     label(for='username' class='user') Username :
-                    input(type="text", id="username" class="username")
+                    input(type="text", id="username" class="username" name="username")
+
                 .email  
                     label(for="email") Email 
-                    input(type="email", id="email" class="email")
+                    input(type="email", id="email" class="email" name="email")
                 .password 
                     label(for="password") Password 
-                    input(type="password", id="password" class="password")
+                    input(type="password", id="password" class="password" name="password")
                 .btn 
                     button(type='submit') Login 
                  
