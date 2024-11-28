@@ -16,3 +16,20 @@ body{
 .user{
     padding: 20px;
 }
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 20px;
+}  
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li{
+    margin-left: 25px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
