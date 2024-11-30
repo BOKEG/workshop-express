@@ -6,7 +6,7 @@ app.set("view engine", "pug");
 app.set("views" , "./views");
 
 
-const PORT = 3000;
+const PORT = 3001;
 app.use(express.static('./views/style.css'));
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
@@ -30,6 +30,6 @@ app.post('/login', (req,res) =>{
 
 // res.send()
 app.listen(PORT,(req,res) =>{
-    console.log('listening to port 3000')
+    console.log('listening to port 3001')
 });
 

@@ -4,16 +4,11 @@ html(lang="en")
     title home page 
     //- link(rel='stylesheet', href=`./style.css`)
     style 
-        include ./style.css
+      include ./style.css
   
   body
-   header
-    h1 logo
-    .navbar 
-     ul
-      .home 
-       li: a(href="#") home
-      .about 
-       li: a(href="#") about
-    
-        
+    nav.navbar 
+      div.logo MyLogo 
+      ul.navlinks 
+        li: a(href="#") Home 
+        li: a(href="#") About

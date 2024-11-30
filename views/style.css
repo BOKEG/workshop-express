@@ -16,20 +16,34 @@ body{
 .user{
     padding: 20px;
 }
-header{
+
+/* Home */
+
+.navbar {
     display: flex;
     justify-content: space-between;
-    text-align: center;
-    padding: 10px 20px;
-}  
-.navbar ul{
-    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navlinks {
     list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
 }
-.navbar ul li{
-    margin-left: 25px;
+
+.navlinks li {
+    margin-left: 2rem;
 }
-ul li a{
-    text-decoration: none;
-    color: black;
+
+.navlinks a {
+    text-decoration: none; 
+    font-size: 1rem;
 }
